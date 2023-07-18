@@ -16,7 +16,6 @@ $(document).click(function () {
         nextSequence()
     }
 });
-//we
 
 function nextSequence() {
     let randomNumber = Math.floor(Math.random() * 4);

@@ -10,6 +10,12 @@ $(document).keypress(function () {
         nextSequence()
     }
 });
+$(document).click(function () {
+    if (!start) {
+        start = true
+        nextSequence()
+    }
+});
 
 function nextSequence() {
     let randomNumber = Math.floor(Math.random() * 4);
